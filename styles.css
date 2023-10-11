@@ -8,23 +8,60 @@ body{
     color: black;
     display: block;
     background-color: white;
-    margin-left: 250px;
-    
+    margin-left: 250px; 
 }
+
+.nombre{ 
+    float: right;
+    margin-right: 250px;
+    margin-top: 10px;
+}
+
 .post-header{
-    display:flex;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
 }
 
 .post-header h4{
     margin: 0;
+    justify-content: space-between;
 }
 .post-header p{
     margin: 0;
 }
+
+.post-image {
+    margin: 10px auto
+}
+
+.post-image img{
+    width: 100%;
+}
+
+.dibujo {
+    margin-left: 10px;
+}
+
 .icons{
     display: inline;
+    margin-left: 10px;
     
 }
-.derecha i{
-    justify-content: right;
+
+.save-icon {
+    float: right;
+    margin-right: 10px;
+}
+
+.derecha {
+    float: right;
+    margin-right: 10px;
+}
+
+.texto {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-bottom: 20px;
 }
